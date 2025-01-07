@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://c4.wallpaperflare.com/wallpaper/163/392/912/map-wold-map-technology-world-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.weather-selector select {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.weather-selector button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #f8b400;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.weather-output {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#cloud-image {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://www.pngitem.com/pimgs/m/60-607663_clouds-png-transparent-image-cloud-background-png.png');
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.weather-output.show-cloud {
+    margin-top: 20px;
+}
